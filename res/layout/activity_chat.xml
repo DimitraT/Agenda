@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chat">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@+id/chatList"
+                android:layout_width="wrap_content"
+                android:layout_height="511dp"
+                android:layout_marginBottom="20dp"
+                android:background="#FFFFFF"
+                android:backgroundTint="#E6D1EA"
+                android:layout_margin="20dp"
+                android:divider="#FFFFFF"
+                android:dividerHeight="8sp"></ListView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp">
+
+                <EditText
+                    android:id="@+id/message"
+                    android:layout_width="243dp"
+                    android:layout_height="71dp"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#61BCB8B8"
+                    android:ems="10"
+                    android:hint="Aa"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="61dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:onClick="speak"
+                    app:icon="@drawable/ic_baseline_mic_24" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/floatingActionButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:clickable="true"
+                    android:onClick="sendComment"
+                    android:layout_marginLeft="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.36"
+                    app:layout_constraintStart_toEndOf="@+id/message"
+                    app:layout_constraintTop_toBottomOf="@+id/chatList"
+                    app:srcCompat="@android:drawable/ic_menu_send" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

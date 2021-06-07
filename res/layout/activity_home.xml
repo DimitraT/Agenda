@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="144dp"
+        android:layout_height="44dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/homeAccountTextView"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="257dp"
+        android:layout_height="44dp"
+        android:textColor="@color/black"
+        android:textAlignment="textStart"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/monthTV"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#4AE9B3F3"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/compactcalendar_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.357"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <com.github.sundeepk.compactcalendarview.CompactCalendarView
+        android:id="@+id/compactcalendar_view"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="52dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:compactCalendarBackgroundColor="#FFFFFF"
+        app:compactCalendarCurrentDayBackgroundColor="#49E3CC"
+        app:compactCalendarCurrentSelectedDayBackgroundColor="#C28DDF"
+        app:compactCalendarMultiEventIndicatorColor="#fff"
+        app:compactCalendarTargetHeight="250dp"
+        app:compactCalendarTextColor="#131313"
+        app:compactCalendarTextSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+    <ListView
+        android:id="@+id/eventlist"
+        android:layout_width="409dp"
+        android:layout_height="243dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/compactcalendar_view"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:clickable="true"
+        android:onClick="addEvent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/compactcalendar_view"
+        app:layout_constraintVertical_bias="0.9"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

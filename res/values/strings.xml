@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name" translatable="false">Agenda</string>
+
+    <string name="mainLogin">Είσοδος</string>
+    <string name="mainEimal" translatable="false">Email</string>
+    <string name="mainPass">Κωδικός</string>
+    <string name="mainLoginButton">Σύνδεση</string>
+    <string name="mainDontHaveAnAccountTXT">Δεν έχεις λογαριασμό;</string>
+    <string name="mainSignUpButton">Εγγράψου Εδώ</string>
+    <string name="mainToastEnterEmailAndPass">Συμπλήρωσε τα στοιχεία σου.</string>
+    <string name="mainToastSuccessLogin">Επιτυχής Σύνδεση</string>
+    <string name="mainToastFailLogin">Αποτυχία Σύνδεσης</string>
+
+    <string name="homeAccountTextView">Λογαριασμός:</string>
+    <string name="homeTitle">(Χωρίς Τίτλο)</string>
+    <string name="homeStatusCreator">(Δημιουργός)</string>
+    <string name="homeStatusInvited">(Καλεσμένος)</string>
+
+    <string name="addEventTitle">Τίτλος Συμβάντος</string>
+    <string name="addEventAllDay">Όλη την Ημέρα</string>
+    <string name="addEventStartDate">Από:</string>
+    <string name="addEventEndDate">Μέχρι:</string>
+    <string name="addEventParticipants">Συμμετέχοντες</string>
+    <string name="addEventDescription">Περιγραφή</string>
+    <string name="addEventLocation">Τοποθεσία</string>
+    <string name="addEventCancelButton">Ακύρωση</string>
+    <string name="addEventCreateButton">Δημιουργία</string>
+    <string name="addEventNoContacts">Δεν υπάρχουν επαφές</string>
+    <string name="addEventDateCheck">Η ώρα/μέρα λήξης πρέπει να είναι μετά από την ώρα/μέρα έναρξης.</string>
+    <string name="addEventSuccess">Το συμβάν προστέθηκε με επιτυχία!</string>
+    <string name="addEventSetNegativeButton">Ακύρωση</string>
+    <string name="addEventLongitude">Γ.Μήκος: </string>
+    <string name="addEventLatitude">Γ.Πλάτος: </string>
+    <string name="addEventMessage">Απαιτείται η δημιουργία συμβάντος πρώτα.</string>
+
+    <string name="contactsAddContactsTotheList">
+ Δεν υπάρχουν επαφές.
+ Πρόσθεσε επαφές με το κουμπί κάτω δεξιά.</string>
+
+    <string name="addContactTitle">Δημηιουργία Επαφής</string>
+    <string name="addContactEmail" translatable="false">Email</string>
+    <string name="addContactCreateButton">Προσθήκη</string>
+    <string name="addContactToastAddanEmail">Προσθέστε email.</string>
+    <string name="addContactToastSuccess">Επιτυχία</string>
+    <string name="addContactToastUserIsAlready">Ο χρήστης αυτός βρίσκεται ήδη στις επαφές σου.</string>
+    <string name="addContactToastUserdoesnotExist">Αυτός ο χρήστης δεν υπάρχει.</string>
+
+    <string name="displayEventDoYouWantToBeInTheEvent">Θέλετε να συμμετέχετε στο συμβάν;</string>
+    <string name="displayEventAcceptButton">Αποδοχή</string>
+    <string name="displayEventDenyButton">Απόρριψη</string>
+    <string name="displayEventToastNotitoCreatorDeny">Το συμβάν διαγράφθηκε. Ο δημιουργός θα ενημερωθεί για την απάντησή σας.</string>
+    <string name="displayEventToastNotiToCreatorAccept">Ο δημιουργός θα ενημερωθεί για την θετική απάντησή σας.</string>
+    <string name="displayEventDenyInvitation">Απόρριψη Πρόσκλησης </string>
+    <string name="displayEventAcceptInvitation">Αποδοχή Πρόσκλησης </string>
+    <string name="displayEventFromTheUser">Από τον χρήστη:  </string>
+    <string name="displayEventInTheEventWithTitle"> στο συμβάν με τίτλο: </string>
+
+    <string name="notificationsNewEvent">Νέο Συμβάν</string>
+    <string name="notifiactionsCreatedBy">Δημιουργός: </string>
+    <string name="notifiactionsHours">Ώρα:  </string>
+
+    <string name="sighUpTitle">Εγγραφή</string>
+    <string name="sighUpEmail" translatable="false">Email</string>
+    <string name="sighUpPass">Κωδικός</string>
+    <string name="sighUpFullName">Ονοματεπώνυμο</string>
+    <string name="sighUpBirthday">Ημερομηνία Γέννησης</string>
+    <string name="sighUpSighupButton">Εγγραφή</string>
+    <string name="sighUpAlreadyAUser">Είστε ήδη χρήστης;</string>
+    <string name="sighUpBackToLogin">Σύνδεση</string>
+    <string name="sighUpToastFillAllTheFields">Συμπλήρωσε όλα τα πεδία.</string>
+    <string name="sighUpToastCorrectFormat">Η σωστή μορφή είναι: dd-mm-yyyy.</string>
+    <string name="sighUpToastSuccefullySignIn">Επιτυχής Εγγραφή!</string>
+    <string name="sighUpToastUnsuccefullySignIn">Έλεγξε το email που εκχωρήθηκε ή/και σιγουρέψου οτι ο κωδικός είναι τουλάχιστον 6 ψηφία.</string>
+    <string name="sighUpToastSomethingWentWrong">Κάτι πήγε στραβά. Προσπάθησε ξανά.</string>
+</resources>

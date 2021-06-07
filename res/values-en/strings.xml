@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mainLogin">Log In</string>
+    <string name="mainPass">Password</string>
+    <string name="mainLoginButton">Login</string>
+    <string name="mainDontHaveAnAccountTXT">Don\'t have an account?</string>
+    <string name="mainSignUpButton">Sign Up Here</string>
+    <string name="mainToastEnterEmailAndPass">Please enter your information.</string>
+    <string name="mainToastSuccessLogin">Successful Login</string>
+    <string name="mainToastFailLogin">Failure</string>
+
+    <string name="homeAccountTextView">Account:</string>
+    <string name="homeTitle">(No Title)</string>
+    <string name="homeStatusCreator">(Creator)</string>
+    <string name="homeStatusInvited">(Invited)</string>
+
+    <string name="addEventTitle">Event Title</string>
+    <string name="addEventAllDay">All Day</string>
+    <string name="addEventStartDate">From:</string>
+    <string name="addEventEndDate">To:</string>
+    <string name="addEventParticipants">Participants</string>
+    <string name="addEventDescription">Description</string>
+    <string name="addEventLocation">Location</string>
+    <string name="addEventCancelButton">Cancel</string>
+    <string name="addEventCreateButton">Create</string>
+    <string name="addEventNoContacts">There are no contacts.</string>
+    <string name="addEventDateCheck">The start date must be before end date.</string>
+    <string name="addEventSuccess">The event has been succefully created!</string>
+    <string name="addEventSetNegativeButton">Cancel</string>
+    <string name="addEventLatitude">Latitude</string>
+    <string name="addEventMessage">You have to create an event first.</string>
+    <string name="addEventLongitude">Longitude</string>
+
+    <string name="contactsAddContactsTotheList">There are no contacts.  Add new contacts by pressing the + button.</string>
+
+    <string name="addContactTitle">Add Contacts</string>
+    <string name="addContactCreateButton">Add</string>
+    <string name="addContactToastAddanEmail">Please add an email.</string>
+    <string name="addContactToastSuccess">Success</string>
+    <string name="addContactToastUserIsAlready">This user already exists.</string>
+    <string name="addContactToastUserdoesnotExist">This user does not exists.</string>
+
+    <string name="displayEventDoYouWantToBeInTheEvent">Do you want to join?</string>
+    <string name="displayEventAcceptButton">Accept</string>
+    <string name="displayEventDenyButton">Deny</string>
+    <string name="displayEventToastNotitoCreatorDeny">The event is deleted. The creator will be informed of your negative response.</string>
+    <string name="displayEventToastNotiToCreatorAccept">The creator will be informed of your positive responce.</string>
+    <string name="displayEventDenyInvitation">"Invitation denied "</string>
+    <string name="displayEventAcceptInvitation">"Invitation accepted "</string>
+    <string name="displayEventFromTheUser">"From the user: "</string>
+    <string name="displayEventInTheEventWithTitle">" in the event with title: "</string>
+
+    <string name="notificationsNewEvent">New Event</string>
+    <string name="notifiactionsCreatedBy">"Creator:  "</string>
+    <string name="notifiactionsHours">"Time: "</string>
+
+    <string name="sighUpTitle">Sign Up</string>
+    <string name="sighUpPass">Password</string>
+    <string name="sighUpFullName">Full Name</string>
+    <string name="sighUpBirthday">Date of Birth</string>
+    <string name="sighUpSighupButton">SignUp</string>
+    <string name="sighUpAlreadyAUser">Already a user?</string>
+    <string name="sighUpBackToLogin">LogIn</string>
+    <string name="sighUpToastFillAllTheFields">Fill all the fields.</string>
+    <string name="sighUpToastCorrectFormat">The correct format is: dd-mm-yyyy.</string>
+    <string name="sighUpToastSuccefullySignIn">Successful Sign Up</string>
+    <string name="sighUpToastUnsuccefullySignIn">Check if the email is valid and/or make sure the password contains at least 6 characters.</string>
+    <string name="sighUpToastSomethingWentWrong">Something went wrong. Please try again.</string>
+</resources>
